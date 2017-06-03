@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css?family=Patrick+Hand');
+
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-family: 'Patrick Hand';
+}
+
+html, body {
+	height: 100%;
+}
+
+#borderTop {
+	top: 0;
+	position: fixed;
+	z-index: 4;
+	width: 100%;
+	border: 1px solid #000;
+}
+
+#borderBottom {
+	bottom: 0;
+	position: fixed;
+	z-index: 4;
+	width: 100%;
+	border: 1px solid #000;
+}
+
+#invisiBar {
+	float: left;
+	width: 250px;
+	position: fixed;
+	border: 2px solid #000;
+	z-index: 1;
+	height: 99.4%; 
+}
+
+#sideBar {
+	float: left;
+	width: 250px;
+	position: fixed;
+	height: 100%;
+	z-index: 1;
+
+}
+
+#logo {
+	margin: 30px;
+	width: 150px;
+}
+
+#contentCenter {
+	width: 1130px;
+	position: absolute;
+	left: 260px;
+	overflow-x: scroll;
+	padding: 20px;
+	height: 100%;
+	border-left: 2px solid #000;
+	border-right: 2px solid #000;
+	border-bottom: 2px solid #000;
+	z-index: 2;
+	background-color: #fff;
+}
+
+.subjectBox {
+	margin: auto;
+	display: block;
+	border: 2px solid #000;
+	width: 550px;
+	padding: 20px;
+	text-align: center;
+	font-size: 2em;
+	margin-top: 70px;
+	margin-bottom: 35px;
+}
+
+
+.titleBox {
+	margin: auto;
+	display: block;
+	border: 2px solid #000;
+	width: 550px;
+	padding: 20px;
+	text-align: justify;
+	margin-top: 10px;
+	float: 1.5em;
+	margin-bottom: 10px;
+}
+
+.inputBox {
+	margin: auto;
+	display: block;
+	border: 2px solid #000;
+	width: 595px;
+	padding: 20px;
+	text-align: left;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+input[type="submit"] {
+	text-align: center; 
+	font-size: 1.8em; 
+	background-color: #fff;
+}
+
+input[type="text"] {
+	font-size: 1em;
+}
+
+
+input[type="password"] {
+	font-size: 1em;
+}
+
+input[type="number"] {
+	font-size: 1em;
+}
+
+input[type="date"] {
+	font-size: 1em;
+}
+
+textarea {
+	resize: vertical;
+	font-size: 1em;
+}
+
+#errormsg {
+	margin: auto;
+	border: 2px solid #000;
+	width: 550px;
+	padding: 20px;
+	text-align: justify;
+	float: 1.5em;
+	top: 0;
+}
+
+#footer {
+	margin: auto;
+	display: block;
+	border: 2px solid #000;
+	width: 550px;
+	text-align: center;
+	height: 70px;
+	padding: 18px;
+	margin-top: 70px;
+	margin-bottom: 150px; 
+}
+
+#footer img {
+	position: absolute;
+	left: 310px;
+	margin-bottom: 100px; 
+}
+
+#footer h1 {
+	float: right;
+	padding-top: 20px;
+	padding-right: 35px;
+	font-size: 1.7em;
+}
+

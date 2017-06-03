@@ -1,0 +1,67 @@
+
+
+<html>
+<head>
+	<title>Ad</title>
+</head>
+
+<link rel="stylesheet" type="text/css" href="style.css">
+
+
+<body>
+
+<div id="borderTop"></div>
+<div id="borderBottom"></div>
+
+<div id="invisiBar">
+	<div id="logo">
+		<img src="Logo.png">
+	</div>
+</div> 
+
+<div id="contentCenter">
+
+<script type="text/javascript">
+
+(function () {
+    var timeLeft = 5,
+        cinterval;
+
+    var timeDec = function (){
+        timeLeft--;
+        document.getElementById('countdown').innerHTML = timeLeft;
+        if(timeLeft === 0){
+            clearInterval(cinterval);
+            window.location.replace('index.php');
+        }
+    };
+
+    cinterval = setInterval(timeDec, 1000);
+})();
+
+</script>
+
+Redirecting in <span id="countdown">5</span>.
+
+<div class="subjectBox">Ad:</div>
+
+
+<div class="subjectBox" style="width: 590px; padding: 0;"></div>
+
+
+
+
+
+
+<div id="footer"><img src="Logo.png"><h1>Created by Abdi Nur.</h1></div>
+
+
+
+</div>
+
+
+
+
+</body>
+</html>
+
